@@ -56,7 +56,7 @@ async function translateText(text) {
             target_lang: targetLang
         });
 
-        const response = await fetch('http://localhost:8000/translate', {
+        const response = await fetch('/translate', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
