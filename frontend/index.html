@@ -1,0 +1,107 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Translator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Healthcare Translator</h1>
+        
+        <div class="language-container">
+            <select id="sourceLang">
+                <option value="en-US">English (US)</option>
+                <option value="es-ES">Spanish (Spain)</option>
+                <option value="fr-FR">French (France)</option>
+                <option value="de-DE">German (Germany)</option>
+                <option value="it-IT">Italian (Italy)</option>
+            </select>
+            
+            <select id="targetLang">
+                <option value="fr-FR">French (France)</option>
+                <option value="en-US">English (US)</option>
+                <option value="es-ES">Spanish (Spain)</option>
+                <option value="de-DE">German (Germany)</option>
+                <option value="it-IT">Italian (Italy)</option>
+            </select>
+        </div>
+
+        <button id="startRecording" class="record-button">Start Recording</button>
+        <div id="statusMessage" class="status-message"></div>
+
+        <div>
+            <h3>Original Text:</h3>
+            <div id="originalText" class="translation-box"></div>
+            <button onclick="playText('originalText', 'sourceLang')" class="play-button">🔊 Play</button>
+        </div>
+
+        <div>
+            <h3>Translation:</h3>
+            <div id="translationText" class="translation-box"></div>
+            <button onclick="playText('translationText', 'targetLang')" class="play-button">🔊 Play</button>
+        </div>
+
+        <div id="contextSection" class="context-box" style="display:none;">
+            <h3>Context Insight:</h3>
+            <div id="contextText" class="context-content"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Translator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: #e8f5e9;">
+    <div class="container">
+        <h1>Healthcare Translator</h1>
+        
+        <div class="language-container">
+            <select id="sourceLang">
+                <option value="en-US">English (US)</option>
+                <option value="es-ES">Spanish (Spain)</option>
+                <option value="fr-FR">French (France)</option>
+                <option value="de-DE">German (Germany)</option>
+                <option value="it-IT">Italian (Italy)</option>
+            </select>
+            
+            <select id="targetLang">
+                <option value="fr-FR">French (France)</option>
+                <option value="en-US">English (US)</option>
+                <option value="es-ES">Spanish (Spain)</option>
+                <option value="de-DE">German (Germany)</option>
+                <option value="it-IT">Italian (Italy)</option>
+            </select>
+        </div>
+
+        <button id="startRecording" class="record-button">Start Recording</button>
+        <div id="statusMessage" class="status-message"></div>
+
+        <div>
+            <h3>Original Text:</h3>
+            <div id="originalText" class="translation-box"></div>
+            <button onclick="playText('originalText', 'sourceLang')" class="play-button">🔊 Play</button>
+        </div>
+
+        <div>
+            <h3>Translation:</h3>
+            <div id="translationText" class="translation-box"></div>
+            <button onclick="playText('translationText', 'targetLang')" class="play-button">🔊 Play</button>
+        </div>
+
+        <div id="contextSection" class="context-box" style="display:none;">
+            <h3>Context Insight:</h3>
+            <div id="contextText" class="context-content"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
