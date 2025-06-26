@@ -38,14 +38,17 @@ source venv/bin/activate
 # On Windows, use `venv\Scripts\activate`
 
 ```
-3. Install Dependencies
+### 3. Install Dependencies
 ```BASH
 pip install -r requirements.txt
 ```
 
-4. Set Environment Variables
+### 4. Set Environment Variables
 Create a .env file in the project root:
-`OPENROUTER_API_KEY=your_openrouter_api_key `
+```BASH
+OPENROUTER_API_KEY=your_openrouter_api_key
+```
+
 ### Running the Service
 Development Mode
 ```BASH
