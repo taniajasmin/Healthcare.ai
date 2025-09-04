@@ -4,6 +4,10 @@
 ``` Live link
 https://healthcare-ai-9pyj.onrender.com
 ```
+``` Demo video link
+[https://healthcare-ai-9pyj.onrender.com](https://www.loom.com/share/b8b5cb5a4c664cd69f5103843880fcc2?sid=ac1bdb41-adf9-42db-9a85-f4b75362d9db)
+```
+
 ## Overview
 A specialized medical translation service built with FastAPI, leveraging advanced AI models for precise medical terminology translation.
 
